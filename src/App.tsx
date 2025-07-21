@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css';
-import UploadSection from './UploadSection.jsx';
+import "./App.css";
+import UploadSection from "./UploadSection.jsx";
 
 const LandingPage: React.FC = () => {
   return (
@@ -9,7 +9,12 @@ const LandingPage: React.FC = () => {
       {/* Navbar */}
       <header className="navbar">
         <div className="logo">
-          <img src="/src/assets/face-logo.png" alt="FaceFinder Logo" className="logo-icon" style={{ width: '2.5rem', height: '2.5rem', borderRadius: '50%' }} />
+          <img
+            src="/src/assets/face-logo.png"
+            alt="FaceFinder Logo"
+            className="logo-icon"
+            style={{ width: "2.5rem", height: "2.5rem", borderRadius: "50%" }}
+          />
           <span className="logo-text">FaceFinder</span>
           <span className="logo-subtext">Identity Verification System</span>
         </div>
@@ -23,8 +28,9 @@ const LandingPage: React.FC = () => {
           Social Media <span className="highlight">Face Search</span>
         </h1>
         <p className="subtitle">
-          Advanced facial recognition system that searches across multiple social media platforms.
-          Upload a photo to find matching profiles on Facebook, Instagram, Twitter, LinkedIn, and more.
+          Advanced facial recognition system that searches across multiple
+          social media platforms. Upload a photo to find matching profiles on
+          Facebook, Instagram, Twitter, LinkedIn, and more.
         </p>
 
         {/* Feature icons */}
@@ -39,14 +45,14 @@ const LandingPage: React.FC = () => {
         <UploadSection />
         {/* Ethical Guidelines */}
         <div className="ethical-guidelines">
-            <h3>⚠️ Ethical Use Guidelines</h3>
-            <ul>
-              <li>Only use with proper consent or for legitimate research</li>
-              <li>Respect privacy and platform terms of service</li>
-              <li>Verify results manually before taking action</li>
-              <li>Use responsibly for security and identity verification</li>
-            </ul>
-          </div>
+          <h3>⚠️ Ethical Use Guidelines</h3>
+          <ul>
+            <li>Only use with proper consent or for legitimate research</li>
+            <li>Respect privacy and platform terms of service</li>
+            <li>Verify results manually before taking action</li>
+            <li>Use responsibly for security and identity verification</li>
+          </ul>
+        </div>
       </main>
     </div>
   );

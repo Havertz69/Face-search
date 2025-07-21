@@ -1,2 +1,2 @@
 declare const UploadSection: () => JSX.Element;
-export default UploadSection; 
+export default UploadSection;

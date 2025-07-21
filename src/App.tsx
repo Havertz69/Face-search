@@ -9,7 +9,7 @@ const LandingPage: React.FC = () => {
       {/* Navbar */}
       <header className="navbar">
         <div className="logo">
-          <span className="logo-icon">🔍</span>
+          <img src="/src/assets/face-logo.png" alt="FaceFinder Logo" className="logo-icon" style={{ width: '2.5rem', height: '2.5rem', borderRadius: '50%' }} />
           <span className="logo-text">FaceFinder</span>
           <span className="logo-subtext">Identity Verification System</span>
         </div>

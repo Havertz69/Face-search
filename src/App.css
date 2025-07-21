@@ -18,8 +18,13 @@
 }
 
 html {
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%;
   box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.3);
+  color: #000;
 }
 
 *, *::before, *::after {
